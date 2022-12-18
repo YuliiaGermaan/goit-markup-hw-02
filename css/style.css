@@ -1,3 +1,4 @@
+/* header */
 .main-page {
     font-family: 'Roboto';
     font-style: normal;
@@ -71,6 +72,7 @@
     color: #434455;
 }
 
+/* main */
 .main {
     position: absolute;
     background: #2E2F42;
@@ -176,6 +178,7 @@
     color: #434455;
 }
 
+/* footer */
 .main-footer {
     width: 1440px;
     height: 310px;
@@ -201,8 +204,9 @@
 
 
 
-/* PORTFOLIO */
+/*portfolio */
 
+/* header */
 .site-body {
     font-family: 'Roboto';
     font-style: normal;
@@ -264,6 +268,7 @@
     color: #434455;
 }
 
+/* main */
 .list-img {
     width: 1128px;
     height: 420px;
@@ -291,6 +296,7 @@
     color: #434455;
 }
 
+/* footer */
 .main-footer {
     width: 1440px;
     height: 310px;
