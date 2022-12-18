@@ -11,19 +11,23 @@
     top: 0px;
     background: #FFFFFF;
 }
-.page-nav {
-    width: 261px;
+
+.main-logo {
+    width: 115px;
     height: 24px;
-    left: 348px;
+    left: 156px;
     top: 24px;
 }
-.main-logo {
+
+.logo-web {
+    font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 24px;
     letter-spacing: 0.03em;
     color: #4D5AE5;
 }
+
 .header-logo-page {
     font-family: 'Raleway';
     font-weight: 800;
@@ -41,11 +45,8 @@
 
 }
 .item-page {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-    gap: 40px;
+    width: 48px;
+    height: 24px;
 }
 .page-link {
     font-weight: 600;
@@ -73,15 +74,17 @@
 }
 
 /* main */
-.main {
-    position: absolute;
-    background: #2E2F42;
+.main {  
+    font-family: 'Roboto';
+    font-style: normal;
 }
 .main-section {
+    position: absolute;
     width: 1440px;
     height: 603px;
     left: 0px;
     top: 72px;
+    background: #2E2F42;
 }
 .title {
     font-weight: 600;
@@ -98,17 +101,9 @@
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;  
+    background: #4D5AE5;
 }
 
-.main-title {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-
-}
 .main-list {
     width: 1128px;
     height: 104px;
@@ -120,6 +115,13 @@
     height: 104px;
     left: 156px;
     top: 795px;
+}
+.main-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .main-text {
     font-style: normal;
@@ -139,16 +141,15 @@
 .section-title {
     font-weight: 600;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
-.gadjet-list {
+
+.photo-item {
     width: 360px;
     height: 300px;
-    left: 156px;
-    top: 1131px;
 }
 
 .main-team {
@@ -156,7 +157,17 @@
     height: 732px;
     left: 0px;
     top: 1551px;
+    background: #F4F4FD;
 }
+.team-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 32px;
+    gap: 32px;
+}
+
 .team-title {
     font-weight: 600;
     font-size: 36px;
@@ -169,6 +180,14 @@
     height: 380px;
     left: 156px;
     top: 1783px;
+    background: #FFFFFF;
+}
+.title-name {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 .team-text {
     font-weight: 400;
@@ -186,13 +205,27 @@
     top: 2283px;
     background: #2E2F42;
 }
+.name-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;
+}
 .footer-logo-page {
-    width: 115px;
-    height: 22px;
-    left: 156px;
-    top: 2383px;
+    font-family: 'Raleway';
+     font-style: normal;
+     font-weight: 800;
+     font-size: 18px;
+     line-height: 1.16;
+     letter-spacing: 0.03em;
+     color: #F4F4FD;
 }
 .footer-text-page {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -219,6 +252,8 @@
     background: #FFFFFF;
 }
 .header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -226,6 +261,8 @@
     color: #4D5AE5;
 }
 .header-logo-blue {
+    font-family: 'Raleway';
+    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -269,6 +306,35 @@
 }
 
 /* main */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.hero-list {
+    position: absolute;
+    width: 586px;
+    height: 48px;
+    left: 427px;
+    top: 168px;
+}
+
+.hero.btn {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
 .list-img {
     width: 1128px;
     height: 420px;
