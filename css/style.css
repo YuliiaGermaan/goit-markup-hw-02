@@ -31,31 +31,49 @@ display: flex;
 flex-direction: row;
 align-items: flex-start;
 padding: 0px;
-align-items: center;
 position: absolute;
 width: 115px;
 height: 24px;
 left: 156px;
-top: 24px
+top: 24px;
 }
+
 .logo-web {
+width: 44px;
+height: 24px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33;
+line-height: 24px;
+display: flex;
+align-items: center;
 letter-spacing: 0.03em;
+text-transform: uppercase;
 color: #4D5AE5;
+flex: none;
+order: 0;
+flex-grow: 0;
 }
+
 .header-logo-page {
+width: 71px;
+height: 24px;
 font-family: 'Raleway';
 font-style: normal;
 font-weight: 800;
 font-size: 18px;
-line-height: 1.33;
+line-height: 24px;
+display: flex;
+align-items: center;
 letter-spacing: 0.03em;
+text-transform: uppercase;
 color: #2E2F42;
+flex: none;
+order: 1;
+flex-grow: 0;
 }
+
 .list-header-page {
 display: flex;
 flex-direction: row;
@@ -68,6 +86,7 @@ height: 24px;
 left: 348px;
 top: 24px;
 }
+
 .page-link {
 font-weight: 600;
 font-size: 16px;
