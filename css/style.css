@@ -11,6 +11,10 @@ color: #2E2F42;
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+}
+
 /* header */
 
 .header-main-page {
