@@ -117,6 +117,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-text-color);
+}
+
+.section-photo h2 {
     text-transform: capitalize;
 }
 
