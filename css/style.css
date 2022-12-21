@@ -197,8 +197,15 @@ body {
 }
 
 .meditaion-app {
-    width: 360px;
-    height: 300px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
     background-color:var(--accent-color);
-    color:var(--light-color);
+    color:var(--title-text-color);
+}
+.list-img p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-text-color);
 }
