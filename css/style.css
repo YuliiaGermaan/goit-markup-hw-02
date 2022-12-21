@@ -52,6 +52,12 @@
     color:var(--accent-color);
 }
 
+.list-mail-tel .link:hover,
+.list-mail-tel .link:focus,
+.list-mail-tel .link:active {
+    color:var(--accent-color);
+}
+
 /* list */
 .list{
     list-style:none;
