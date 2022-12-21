@@ -83,7 +83,7 @@ body {
 }
 
 .main-btn {
-    background-color:var(--accent-color);
+    background-color:var(--border-bottom-color);
     border:none;
     cursor: pointer;
     font-family: inherit;
@@ -104,6 +104,19 @@ body {
 
 .section{
     background-color:var(--primary-white-color);
+}
+
+.section h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+}
+.section p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-text-color);
 }
 
 .section-title{
