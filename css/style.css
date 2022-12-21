@@ -11,6 +11,7 @@
     --accent-color:#4D5AE5;
     --light-color:#F4F4FD;
     --border-bottom-color: #404BBF;
+    --footer-color: #E7E9FC;
 }
 
 body {
@@ -160,11 +161,11 @@ body {
 }
 
 .footer-text-page {
-    color:var(--primary-white-color);
+    color: var(--footer-color);
 }
 
 .name-logo {
-    color:var(--primary-white-color);
+    color:var(--accent-color);
     text-transform:uppercase;
     font-family:'Raleway', sans-serif;
     text-decoration:none;
