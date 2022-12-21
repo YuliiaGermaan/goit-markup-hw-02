@@ -164,8 +164,12 @@ body {
     color: var(--footer-color);
 }
 
+.footer-logo-page {
+    color: var(--accent-color);
+}
+
 .name-logo {
-    color:var(--accent-color);
+    color:var(--light-color);
     text-transform:uppercase;
     font-family:'Raleway', sans-serif;
     text-decoration:none;
