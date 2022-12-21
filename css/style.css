@@ -117,6 +117,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-text-color);
+    text-transform: capitalize;
 }
 
 .section-title{
@@ -124,7 +125,6 @@ body {
     font-weight: 600;
     font-size: 36px;
     line-height: 1.1;
-    text-transform: capitalize;
 }
 
 .visually-hidden{
