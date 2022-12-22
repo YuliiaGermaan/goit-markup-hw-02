@@ -84,7 +84,7 @@ body {
 }
 
 .main-btn {
-    background-color:var(--border-bottom-color);
+    background-color:var(--accent-color);
     border:none;
     cursor: pointer;
     font-family: inherit;
@@ -108,7 +108,7 @@ body {
 }
 
 .section h3 {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--title-text-color);
@@ -126,7 +126,7 @@ body {
 
 .section-title{
     color:var(--title-text-color);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.1;
 }
@@ -151,7 +151,7 @@ body {
 
 .title-name {
     color:var(--title-text-color);
-    font-weight:600;
+    font-weight:500;
 }
 
 /* footer */
