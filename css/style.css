@@ -202,7 +202,6 @@ body {
     line-height: 1.2;
     background-color:var(--primary-white-color);
     color:var(--title-text-color);
-    text-decoration: none;
 }
 .list-img p {
     font-weight: 400;
